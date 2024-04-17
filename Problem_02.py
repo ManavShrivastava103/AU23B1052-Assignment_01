@@ -46,4 +46,7 @@ choice = input("Do you want to filter by size availability? type yes or no : ")
 if choice=="yes":
     input_size=input("Enter the size of tshirt required : ")
     get_tshirt(input_brand_name,input_size)
-get_tshirt(input_brand_name)
+elif choice=='no':
+    get_tshirt(input_brand_name)
+else:
+    print("Invalid choice.")
