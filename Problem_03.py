@@ -21,7 +21,7 @@ def get_order(food_list):
         restaurant_orders.reverse()
 
 # taking input for food orders from the user
-number=int(input("Welcome to our restaurant ONE3!\nPlease enter the number of food items to be ordered : "))
+number=int(input("\nWelcome to our restaurant ONE3!\nPlease enter the number of food items to be ordered : "))
 orders=[]
 for k in range(1,number+1):
     orders.append(input("Enter your order : "))
