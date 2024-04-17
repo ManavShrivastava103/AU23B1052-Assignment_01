@@ -40,6 +40,7 @@ def get_name():
     return user_name
 
 #Using the function to get the tshirt brand along with size filter
+print("Welcome to our clothing shop ONE3\n")
 input_brand_name = input("Enter the name of the tshirt brand you want : ")
 choice = input("Do you want to filter by size availability? type yes or no : ")
 if choice=="yes":

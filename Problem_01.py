@@ -16,5 +16,6 @@ def get_name():
     return user_name
 
 #Using the function to get the tshirt brand
+print("Welcome to our clothing shop ONE3\n")
 input_by_user = input("Enter the name of the tshirt brand you want : ")
 get_tshirt(input_by_user)
