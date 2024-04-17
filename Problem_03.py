@@ -13,11 +13,10 @@ def get_order(food_list):
     for _ in range(0,len(restaurant_orders)):
         #for a hypothetical situation the time of preparation of food order is considered to be 5 seconds
         time.sleep(5)       
-        print(restaurant_orders[0])
-        #emptying the restaurant list when the orders are dispatched: reversing the list, then poping out the last element and then again reversing the list
+        #emptying the restaurant list when the orders are dispatched and printing it: reversing the list, then poping out the last element and then again reversing the list
         #pop and reverse are some other stack based methods used in the function.
         restaurant_orders.reverse()   
-        restaurant_orders.pop()
+        print(restaurant_orders.pop())
         restaurant_orders.reverse()
 
 # taking input for food orders from the user
