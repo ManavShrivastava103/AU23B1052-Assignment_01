@@ -6,6 +6,7 @@ def get_order(food_list):
     #storing the placed orders into the central order list of the restaurant by stack based method : extend
     restaurant_orders.extend(food_list)
     #displaying the placed orders which are in progress
+    print("\n")
     for i in range(0,len(restaurant_orders)):
         print("Preparing Your Order -",restaurant_orders[i])
     #displaying the dispatched orders
@@ -22,8 +23,8 @@ def get_order(food_list):
 # taking input for food orders from the user
 number=int(input("Hello! please enter the number of food items to be ordered : "))
 orders=[]
-for k in range(0,number):
-    orders.append(input())
+for k in range(1,number+1):
+    orders.append(input("Enter your order : "))
 
 # calling the functions, feeding the orders placed by user into restaurant's list through function to display output
 get_order(orders)
