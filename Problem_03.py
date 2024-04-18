@@ -1,4 +1,4 @@
-import time
+import time     # To add a bit of realism
 
 #defining the function to get the display of orders being prepared and dispatched
 def get_order(food_list):
